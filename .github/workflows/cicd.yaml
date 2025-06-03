@@ -127,7 +127,7 @@ jobs:
             sudo chmod -R 755 /var/www/laravel-d4rpl2b-kelompok-8/storage
             sudo chmod -R 755 /var/www/laravel-d4rpl2b-kelompok-8/bootstrap/cache
 
-            # Run deployment commands
+            # Run deployment commands pasd
             cd /var/www/laravel-d4rpl2b-kelompok-8
             sudo -u www-data composer install --optimize-autoloader --no-dev
             sudo -u www-data php artisan config:cache
